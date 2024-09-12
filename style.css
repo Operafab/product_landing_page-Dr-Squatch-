@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  width: 100vw;
+  background-color:rgb(211, 255, 201);
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+}
+
+header > div{
+  padding: 50px 80px;
+}
+
+header > div >img{
+  height: 50px;
+}
+
+header > div > a > p{
+  font-size: large;
+  background-color:rgb(190, 98, 32);
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero_section{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  padding: auto;
+}
+
+.hand > img{
+  height: 30rem;
+}
+
+.hero_section > div > a > p{
+  font-size: large;
+  font-weight: bold;
+  background-color:rgb(190, 98, 32);
+  color: white;
+  padding:10px 50px;
+  width: max-content;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero_words{
+  width: 40%;
+}
+
+.hero_section .hero_words{
+  padding: auto;
+}
+
+.hero_words > p{
+ font-size: larger;
+}
+
+.right_images{
+  display: flex;
+  margin-top: 50px;
+}
+
+.logo > img{
+  height: 70px;
+  margin-left: -30px;
+}
+
+ion-icon{
+  color: blue;
+}
+
+h1{
+  font-size:50px;
+  font-weight: 900;
+}
+.list > ul{
+  list-style-type: none;
+}
