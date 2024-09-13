@@ -1,0 +1,60 @@
+
+@media screen and (min-width:460px) {
+  
+  header > div{
+    padding: 0px 10px;
+  }
+  header > div >img{
+    height: 40px;
+  }
+  
+  header > div > a > p{
+    font-size:small;
+    padding:10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+
+  .hero_words{
+    width: 40%;
+    margin-top: 30px;
+  }
+  
+
+  .hero_words h1{
+    font-size:30px;
+  }
+
+  .hero_words{
+    font-size:small;
+  }
+
+  .hand > img{
+    height: 20rem;
+  }  
+  
+
+  .hero_section{
+    margin: 30px auto;
+  }
+
+  .hero_section > div > a > p{
+    font-size: small;
+    font-weight: bold;
+    background-color:rgb(190, 98, 32);
+    color: white;
+    padding:5px 20px;
+    width: fit-content;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+
+  .logo > img{
+    height: 30px;
+    margin-left: -50px;
+  }
+
+
+}

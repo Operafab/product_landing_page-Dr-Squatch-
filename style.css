@@ -6,8 +6,10 @@
 }
 
 body{
-  width: 100vw;
   background-color:rgb(211, 255, 201);
+  height: 20px;
+  height: fit-content;
+  margin: 0;
 }
 
 header{
@@ -43,7 +45,7 @@ header > div > a > p{
 }
 
 .hand > img{
-  height: 30rem;
+  height: 50rem;
 }
 
 .hero_section > div > a > p{
@@ -66,9 +68,6 @@ header > div > a > p{
   padding: auto;
 }
 
-.hero_words > p{
- font-size: larger;
-}
 
 .right_images{
   display: flex;
