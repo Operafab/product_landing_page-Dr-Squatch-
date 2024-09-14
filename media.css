@@ -1,4 +1,14 @@
 
+
+
+@media screen and (min-width:508px){
+
+  .hero_words .bottom_words{
+    font-size:8px;
+  }
+}
+
+
 @media screen and (min-width:460px) {
   
   header > div{
@@ -15,7 +25,11 @@
     text-decoration: none;
   }
 
-  .hero_words{
+  .top{
+    font-size:smaller;
+  }
+
+  .hero_words .hero_words{
     width: 40%;
     margin-top: 30px;
   }
@@ -34,10 +48,6 @@
   }  
   
 
-  .hero_section{
-    margin: 30px auto;
-  }
-
   .hero_section > div > a > p{
     font-size: small;
     font-weight: bold;
@@ -54,6 +64,10 @@
   .logo > img{
     height: 30px;
     margin-left: -50px;
+  }
+
+  .bottom_words{
+    font-size:7px;
   }
 
 
