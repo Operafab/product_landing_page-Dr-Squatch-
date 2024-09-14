@@ -1,13 +1,63 @@
 
 
 
+
+
+@media only screen and (min-width:1005px){
+
+  h1{
+    border: 1px solid red;
+    font-size:90rem;
+  }
+
+  .hero_words .list{
+    font-size: small;
+  }
+
+}
+
+
+
+@media only screen and (min-width:858px){
+ 
+  .hero_words > p,.list{
+    font-size: medium;
+  }
+
+  .hero_section .hero_words h1{
+    font-size:35px;
+  }
+
+  .hero_section > .hero_words >.shop_button > p{
+    width: 14rem;
+  }
+
+  .hero_section .hero_words .bottom_words{
+    font-size: small;
+  }
+
+}
+
+
+@media only screen and (min-width:656px){
+  .hero_words .top{
+    font-size: small;
+  }
+}
+
+@media only screen and (min-width:600px){
+
+  .hero_section .hero_words > a > p{
+    width: 12rem;
+    padding: 10px;
+  }
+}
 @media screen and (min-width:508px){
 
   .hero_words .bottom_words{
     font-size:8px;
   }
 }
-
 
 @media screen and (min-width:460px) {
   
@@ -29,18 +79,15 @@
     font-size:smaller;
   }
 
-  .hero_words .hero_words{
+  .hero_words{
     width: 40%;
     margin-top: 30px;
+    font-size:small;
+
   }
   
-
   .hero_words h1{
     font-size:30px;
-  }
-
-  .hero_words{
-    font-size:small;
   }
 
   .hand > img{
