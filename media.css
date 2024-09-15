@@ -3,29 +3,42 @@
 
 
 
-@media only screen and (min-width:1005px){
+@media only screen and (min-width:1000px){
 
-  h1{
-    border: 1px solid red;
-    font-size:90rem;
+  .hero_words .hero_text{
+    font-size:25rem;
+    font-weight:bolder;
+    width: 23rem;
+  } 
+
+  .hero_words p{
+  
+    font-size: x-large;
+    width: 23rem;
   }
 
-  .hero_words .list{
-    font-size: small;
+  header{
+    padding: 10px 40px;
+  }
+
+  .right_images .hand > img{
+    height: 27rem;
+  }
+  .right_images .logo > img{
+    height: 4rem;
   }
 
 }
 
 
-
 @media only screen and (min-width:858px){
- 
+  
   .hero_words > p,.list{
     font-size: medium;
   }
 
   .hero_section .hero_words h1{
-    font-size:35px;
+    font-size:40px;
   }
 
   .hero_section > .hero_words >.shop_button > p{
@@ -50,6 +63,9 @@
   .hero_section .hero_words > a > p{
     width: 12rem;
     padding: 10px;
+  }
+  header {
+    padding:0% 5%;
   }
 }
 @media screen and (min-width:508px){
